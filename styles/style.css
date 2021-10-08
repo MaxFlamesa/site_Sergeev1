@@ -1,0 +1,44 @@
+body {
+    background-color: #f5e9b0;
+}
+
+.header-footer {
+    background-color: #a5694f;
+    padding: 10px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+.header-footer > ul {
+    padding-inline-start: 0px;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link {
+    color: #f2dec2;
+    text-decoration: none;
+}
+
+.logo-pic {
+    height: 63px;
+    width: 42px;
+}
+
+.list-items {
+    display: inline-block;
+}
+
+.item-card {
+    background-color: fffdd0;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+}
+
+.item-card:hover {
+    outline: 1px solid #fffdd0;
+}

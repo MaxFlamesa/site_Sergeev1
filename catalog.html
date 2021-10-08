@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <p>
-        <a href = "main_page.html"> <img src="templates/logo.png" border = "1" alt = "logo" /> </a>
-    </p>
+    <div class = "container">
+        <header class = "header-footer">
+            <ul>
+                <li class = "menu-item">
+                    <a class = "link" href="main_page.html"> <img class = "logo-pic" src = "templates/logo.png" > </a>
+                </li>
+                <li class = "menu-item">
+                    <a class = "link" href = "main_page.html"> Главная</a>
+                </li>
+                <li class = "menu-item">
+                    <a class = "link" href = "catalog.html"> Каталог</a>
+                </li>
+                <li class = "menu-item">
+                    <a class = "link" href = "about.html"> О нас</a>
+                </li>
+            </ul>
+        </header>
+        <div class = "list-items" >
+            <div class = "item-card">
+                <a href = "tovar_first.html"> <img src = "templates/defolt.png"> </a>
+                <a> Арабика </a>
+            </div>
+    
+            <div class = "item-card">
+                <a href = "tovar_second.html"> <img src = "templates/defolt.png"> </a>
+                <a> Робуста </a>
+            </div>
+        </div>
 
-    <p>
-        <a href = "tovar_first.html"> <img src = "templates/tovari/tov1.jfif" height="200" width="200" /> </a>
-        <a> Yaroslave</a>
-    </p>
-     
-    <p>
-        <a href = "tovar_second.html"> <img src = "templates/tovari/tov2.jpg" height="200" width="200"/> </a>
-        <a> Vladislave</a>
-    </p>
+    </div>
     
 </body>
 </html>
