@@ -2,6 +2,10 @@ body {
     background-color: #f5e9b0;
 }
 
+.container {
+    padding : 20px;
+}
+
 .header-footer {
     background-color: #a5694f;
     padding: 10px;
@@ -36,6 +40,7 @@ body {
     padding-left: 10px;
     padding-top: 20px;
     padding-right: 100px;
+    padding-bottom: 20px;
     display: table-cell;
     border-right: 3px solid #a5694f;
 }
@@ -43,8 +48,10 @@ body {
 .item-card {
     display: table-cell;
     background-color: fffdd0;
-    padding: 50px;
-    margin: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
     width: 150px;
 }
 
