@@ -1,0 +1,5 @@
+SELECT COUNT(*) from products # посчитать количество товаров в каталоге
+UPDATE orders SET date = '20' || substr(date, 7, 2) || '-' || substr(date, 4, 2) || '-' || substr(date, 1, 2) WHERE order_id = '1'
+#поменять формат дат, уберите WHERE для всех)
+SELECT * FROM orders WHERE date = (SELECT MAX(date) FROM orders)
+#последний заказ
